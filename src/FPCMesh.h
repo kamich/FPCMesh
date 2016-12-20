@@ -16,7 +16,8 @@ typedef int* Fa_Ids; //set of faces identyfiers
 typedef int* Vo_Ids; //set of volumes identyfiers
 
 /// no adaptation, no distributed memory
-class FPCMesh {
+class FPCMesh 
+{
 public:
 	// Base set of operators
 	// 0d - Vertices operators
